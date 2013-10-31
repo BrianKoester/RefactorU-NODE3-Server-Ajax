@@ -2,8 +2,6 @@
 // CLIENT SIDE JS
 //***************
 
-
-
 $(function(){
 
 
@@ -32,6 +30,7 @@ $(function(){
 				// add the error text to the message div
 				$('#message').text(data.success);
 			}
+			
 		});
 
 	});
